@@ -1,0 +1,143 @@
+body {
+    background-image: url("./images/windows_xp_desktop3.png");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-color: beige;
+}  
+
+h1 {
+    display: flex;
+    width: 280px;
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 260px;
+    left: 120px;
+    
+
+}
+
+#button1 {
+    font-size: 28px;
+    content: '\00bb';
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    left: 510px;
+    top: 35px;
+    border-radius: 15px;
+    transition-duration: 0.8s;
+}
+
+#button1 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#button1:hover {
+    background-color: crimson;
+}
+
+#button1:hover span {
+    padding-right: 25px;
+}
+
+#button1:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#button2 {
+    font-size: 28px;
+    content: '\00bb';
+    position: relative;
+    height: 120px;
+    width: 120px;
+    left: 550px;
+    top: 35px;
+    border-radius: 15px;
+    transition-duration: 0.8s;
+}
+
+#button2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#button2:hover {
+    background-color: blue;
+}
+
+#button2:hover span {
+    padding-left: 25px;
+}
+
+#button2:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#button3 {
+    font-size: 28px;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    left: 590px;
+    top: 35px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+#button3:hover {
+    background-color: chocolate;
+}
+
+#button4 {
+    font-size: 28px;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    left: 138px;
+    top: 300px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+#button4:hover {
+    background-color: coral;
+}
+
+#button5 {
+    font-size: 28px;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    left: 176px;
+    top: 300px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+#button5:hover {
+    background-color: darkgoldenrod;
+}
+
+#button6 {
+    font-size: 28px;
+    position: relative;
+    height: 120px;
+    width: 120px;
+    left: 218px;
+    top: 300px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+#button6:hover {
+    background-color: darkviolet;
+}
